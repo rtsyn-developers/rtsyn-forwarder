@@ -1,0 +1,11 @@
+name = "Forwarder"
+description = "Forwards a configurable f64 parameter to an output port."
+
+[[controls]]
+name = "value"
+label = "Value"
+kind = "number"
+target = "param"
+param_id = 0
+value_type = "f64"
+default = "0.0"
